@@ -4,10 +4,7 @@ import CustomButton from "../customButton/CustomButton";
 import Image from "next/image";
 
 function Hero() {
-  const handleScrole = () => {
-    console.log("yes");
-  };
-
+ 
   return (
     <div className="hero">
     <div className="flex-1 pt-36 padding-x">
@@ -23,7 +20,7 @@ function Hero() {
       <CustomButton
         title="Explore Cars"
         containerStyles="bg-primary-blue text-white rounded-full mt-10 px-6 py-2"
-        onClick={handleScrole()}
+       
       />
     </div>
     <div className="hero__image-container">
