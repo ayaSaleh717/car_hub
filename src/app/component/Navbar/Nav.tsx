@@ -18,13 +18,13 @@ const Nav = () => (
         />
       </Link>
         
-       
+       <Link href="./../../login">
         <CustomButton
         title='Sign in'
         btnType='button'
         containerStyles='signin_btn'
       />
-        
+        </Link>
         
        
 </nav></header>
