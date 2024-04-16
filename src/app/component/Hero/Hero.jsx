@@ -2,6 +2,7 @@
 import React from "react";
 import CustomButton from "../customButton/CustomButton";
 import Image from "next/image";
+import Link from "next/link";
 
 function Hero() {
  
@@ -17,11 +18,14 @@ function Hero() {
         process.
       </p>
 
-      <CustomButton
+<Link href="/explore">
+<CustomButton
         title="Explore Cars"
         containerStyles="bg-primary-blue text-white rounded-full mt-10 px-6 py-2"
        
       />
+</Link>
+    
     </div>
     <div className="hero__image-container">
       <div className="hero__image">

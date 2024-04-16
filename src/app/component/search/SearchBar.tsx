@@ -3,7 +3,6 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
-import {FilterProps} from './../customButton/typs'
 
 import SearchManufacturer from "./SearchManufacturer";
 
@@ -18,7 +17,6 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
     />
   </button>
 );
-
 
 
 const SearchBar = () => {
